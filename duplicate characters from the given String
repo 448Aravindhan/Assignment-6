@@ -1,0 +1,7 @@
+string=input('enter string')
+string1=[]
+for i in string:
+	if i not in string1:
+		string1.append(i)
+	else:
+		print('Duplicate characters from the given String:',i)
